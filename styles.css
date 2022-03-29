@@ -66,8 +66,7 @@ a,
   font-weight: bold;
   padding: 5px 20px;
   border-radius: 5px;
-  border: 1px;
-  border-color: white;
+  border: 3px solid white;
 }
 
 button:hover {
@@ -137,4 +136,23 @@ button:hover {
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
+}
+
+.cta {
+  padding: 65px 150px;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  color: white;
+  padding: 50px 150px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text-main {
+  font-size: 24px;
+  font-weight: bold;
 }
