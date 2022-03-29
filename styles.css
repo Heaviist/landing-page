@@ -108,3 +108,23 @@ button:hover {
   flex-direction: column;
   gap: 10px;
 }
+
+.section-quote {
+  background-color: #E5E7EB;
+  padding: 100px 300px 65px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.section-quote .quote-owner {
+  font-weight: bold;
+  text-align: end;
+  font-size: 24px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
